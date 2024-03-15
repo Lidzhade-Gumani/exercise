@@ -20,10 +20,10 @@ int main() {
     cout << "Enter the estimated electricity cost: ";
     cin >> electricityCost;
 
-    desiredProfit = 0.10; // 10% desired net profit
+    desiredProfit = 0.10; 
 
     double markupPercentage = calculateMarkup(merchandiseCost, employeesSalary, yearlyRent, electricityCost, desiredProfit);
-    double saleMarkupPercentage = markupPercentage / 0.85; // Taking into account the 15% sale
+    double saleMarkupPercentage = markupPercentage / 0.85;
 
     cout << "To achieve a net profit of approximately 10% after expenses and a 15% sale, markup the merchandise by " << (saleMarkupPercentage * 100) << "%." << endl;
 
